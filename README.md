@@ -18,8 +18,8 @@ For a more detailed walkthrough of our project, please view our source codes in 
 ## Contributors
 
 - @metalalloy : Motivation/Problem Statement, Exploratory Data Analysis
-- @Wilson Lim : Cleaning up of Data Set, MissForest, GridSearch
-- @LingHin : Observations, Upsampling
+- @godofgaren1 : Cleaning up of Data Set, MissForest, RandomForest
+- @LingHin : GridSearch, Observations, Upsampling
 - @Samuel Ng : Results of re-test, Logistic Regression, Lessons Learnt
 
 ## Problem Definition
@@ -41,6 +41,9 @@ For a more detailed walkthrough of our project, please view our source codes in 
 ## Lessons learnt
 
 - MissForest is a good method for filling in NA values to ensure consistency in the dataset
+- Upsampling may not always be effective
+- Resampling does not always improve imbalanced data
+- Learning how to use Github repositories
 
 ## References
 
