@@ -20,7 +20,7 @@ For a more detailed walkthrough of our project, please view our source codes in 
 - @metalalloy : Motivation/Problem Statement, Exploratory Data Analysis
 - @GodofGaren1 : Cleaning up of Data Set, MissForest, RandomForest
 - @LingHin : GridSearch, Observations, Upsampling
-- @Samuel Ng : Results of re-test, Logistic Regression, Lessons Learnt
+- @samuel1234ng : Results of re-test, Logistic Regression, Lessons Learnt
 
 ## Problem Definition
 
