@@ -27,6 +27,8 @@ For a more detailed walkthrough of our project, please view our source codes in 
 - Do any of the medical conditions have correlation with any diseases?
 - What models can we use to best predict this relationship?
 
+## Variable List
+-
 ## Models Used
 
 - 1. Logistic Regression
