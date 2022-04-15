@@ -29,8 +29,11 @@ For a more detailed walkthrough of our project, please view our source codes in 
 
 ## Variable List
 - <list variable name(s), description(s), unit(s)and value labels as appropriate for each>
-group；ID；outcome；age（years）；gendera；BMI；hypertensive；atrialfibrillation；CHD with no MI；diabetes；deficiencyanemias；depression；Hyperlipemia；Renal failure；COPD；heart rate（bpm）；
-Systolic blood pressure（mmHg）；Diastolic blood pressure（mmHg）；Respiratory rate（bpm）；temperature（℃）；SP O2（%）；Urine output（ml）；hematocrit（%）；RBC（m/uL）;MCH(pg);MCHC(%);MCV(fL);RDW(%);Leucocyte(K/uL);Platelets(K/uL);Neutrophils(%);Basophils(%);Lymphocyte(%);PT(Seconds);INR;NT-proBNP(pg/mL);Creatine kinase(IU/L);Creatinine(mg/dL);Urea nitrogen(mg/dL);glucose(mEq/L);Blood potassium(mEq/L);
+group；ID；outcome；age（years）；gendera；BMI；hypertensive；atrialfibrillation；CHD with no MI；diabetes；deficiencyanemias；depression；Hyperlipemia；
+Renal failure；COPD；heart rate（bpm）；
+Systolic blood pressure（mmHg）；Diastolic blood pressure（mmHg）；Respiratory rate（bpm）；temperature（℃）；SP O2（%）；Urine output（ml）；hematocrit（%）；
+RB（m/uL）;MCH(pg);MCHC(%);MCV(fL);RDW(%);Leucocyte(K/uL);Platelets(K/uL);Neutrophils(%);Basophils(%);Lymphocyte(%);PT(Seconds);INR;NT-proBNP(pg/mL);
+Creatine kinase(IU/L);Creatinine(mg/dL);Urea nitrogen(mg/dL);glucose(mEq/L);Blood potassium(mEq/L);
 Blood sodium(mEq/L);Blood calcium(mg/dL);Chloride(mEq/L);Anion gap(mEq/L);Magnesium ion(mg/dL);PH;Bicarbonate(mEq/L);Lactic acid(mmol/L);PCO2(mmHg);EF(%)
 
 ## Models Used
