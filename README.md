@@ -18,7 +18,7 @@ For a more detailed walkthrough of our project, please view our source codes in 
 ## Contributors
 
 - @metalalloy : Motivation/Problem Statement, Exploratory Data Analysis
-- @godofgaren1 : Cleaning up of Data Set, MissForest, RandomForest
+- @GodofGaren1 : Cleaning up of Data Set, MissForest, RandomForest
 - @LingHin : GridSearch, Observations, Upsampling
 - @Samuel Ng : Results of re-test, Logistic Regression, Lessons Learnt
 
