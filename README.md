@@ -40,7 +40,7 @@ For a more detailed walkthrough of our project, please view our source codes in 
 
 - Even though each variables have low correlation values with the diseases, but using all variables to train the machine learning models can return pretty good results
 - Different diseases can have different Machine Learning Models that performs better. (Logistic Regression for CHD and Random Forest for Renal Failure)
-
+- Even if data is imbalance, resampling will not help in improving the machine learning model much if the variables already have very little correlation
 ## Lessons learnt
 
 - MissForest is a good method for filling in NA values to ensure consistency in the dataset
@@ -51,7 +51,7 @@ For a more detailed walkthrough of our project, please view our source codes in 
 ## References
 
 - https://www.kaggle.com/code/yashgupta24/hospital-moratality-analysis/notebook
-
-
+- https://rpubs.com/lmorgan95/MissForest#:~:text=MissForest%20is%20a%20random%20forest,then%20predicts%20the%20missing%20part.
+- https://www.datacamp.com/community/tutorials/understanding-logistic-regression-python
    
  
