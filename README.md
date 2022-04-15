@@ -17,15 +17,15 @@ For a more detailed walkthrough of our project, please view our source codes in 
 
 ## Contributors
 
-- @metalalloy
-- @LingHin
-- @Wilson Lim
-- @Samuel Ng
+- @metalalloy : Motivation/Problem Statement, Exploratory Data Analysis
+- @Wilson Lim : Cleaning up of Data Set, MissForest, GridSearch
+- @LingHin : Observations, Upsampling
+- @Samuel Ng : Results of re-test, Logistic Regression, Lessons Learnt
 
 ## Problem Definition
 
 - Do any of the medical conditions have correlation with any diseases?
-- What models can we use to best predict this relationship>
+- What models can we use to best predict this relationship?
 
 ## Models Used
 
