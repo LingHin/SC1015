@@ -17,10 +17,10 @@ For a more detailed walkthrough of our project, please view our source codes in 
 
 ## Contributors
 
-- @metalalloy : Motivation/Problem Statement, Exploratory Data Analysis
-- @GodofGaren1 : Cleaning up of Data Set, MissForest, RandomForest
-- @LingHin : GridSearch, Observations, Upsampling
-- @samuel1234ng : Results of re-test, Logistic Regression, Lessons Learnt
+- Aloysius Ng (@metalalloy) : Motivation/Problem Statement, Exploratory Data Analysis
+- Lim Wei Jun, Wilson (@GodofGaren1) : Cleaning up of Data Set, MissForest, RandomForest
+- Lau Ling Hin (@LingHin) : GridSearch, Observations, Upsampling
+- Ng I-Shen Samuel (@samuel1234ng) : Results of re-test, Logistic Regression, Lessons Learnt
 
 ## Problem Definition
 
