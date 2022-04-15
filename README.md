@@ -37,7 +37,7 @@ For a more detailed walkthrough of our project, please view our source codes in 
 ## Conclusion
 
 - Even though each variables have low correlation values with the diseases, but using all variables to train the machine learning models can return pretty good results
-- 
+- Different diseases can have different Machine Learning Models that performs better. (Logistic Regression for CHD and Random Forest for Renal Failure)
 
 ## Lessons learnt
 
