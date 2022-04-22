@@ -24,7 +24,7 @@ For a more detailed walkthrough of our project, please view our source codes in 
 
 ## Problem Definition
 
-- Do any of the medical conditions have correlation with any diseases?
+- Do any of the medical factors have correlation with any diseases?
 - What models can we use to best predict this relationship?
 
 ## Variable List
@@ -46,15 +46,20 @@ Blood sodium(mEq/L);Blood calcium(mg/dL);Chloride(mEq/L);Anion gap(mEq/L);Magnes
 ## Conclusion
 
 - Even though each variables have low correlation values with the diseases, but using all variables to train the machine learning models can return pretty good results
-- Different diseases can have different Machine Learning Models that performs better. (Logistic Regression for CHD and Random Forest for Renal Failure)
 - When comparing the RandomForest model before and after upsampling, we noticed that the True Positive and True Negative Rate only improved marginally for the imbalance data we resampled (CHD), but for the data that the already relatively balanced (Renal Failure), the True Positive and True Negative Rate remains relatively unchanged.
-- Even if data is imbalance, resampling will not help in improving the machine learning model much if the variables already have very little correlation
+- Resampling does help improve the results when the data set is very imbalance, but resampling will not help in improving the machine learning model much if the variables already have very little correlation
+- Different diseases can have different Machine Learning Models that performs better. (Logistic Regression for CHD and Random Forest for Renal Failure)
+- RandomForest with GridSearch helps are able to predict the chances of someone having Renal failure with 78% accuracy.
+- The 5 most important factors in predicting Renal failure are creatine, heart rate, PT(prothrombin time), Bicarbornate and Platelets.
+- Other diseases do have correlations with the medical factors, but their prediction accuracy using machine learning model are not as high as that of Renal failure.
 
 ## Lessons learnt
 
 - MissForest is a good method for filling in NA values to ensure consistency in the dataset
-- Upsampling may not always be effective
-- Resampling does not always improve imbalanced data
+- Logistic Regression from sklearn
+- RandomForest from sklearn
+- Resampling improve imbalanced data to obatain better results for machine learning models, but may not always be effective
+- Learn how to obtain feature importance from RandomForest and LinearRegression.
 - Learning how to use Github repositories
 
 ## References
