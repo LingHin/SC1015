@@ -10,10 +10,6 @@ The dataset we have chosen was taken from Kaggle, titled [Hospital Mortality Ana
 For a more detailed walkthrough of our project, please view our source codes in the following order:
 
 1.
-2.
-3.
-4.
-5.
 
 ## Contributors
 
