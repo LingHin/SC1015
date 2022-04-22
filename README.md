@@ -53,7 +53,6 @@ Blood sodium(mEq/L);Blood calcium(mg/dL);Chloride(mEq/L);Anion gap(mEq/L);Magnes
 ## Lessons learnt
 
 - MissForest is a good method for filling in NA values to ensure consistency in the dataset
-- Resampling improved the True Positive and True Negative rate by a little only 
 - Upsampling may not always be effective
 - Resampling does not always improve imbalanced data
 - Learning how to use Github repositories
