@@ -47,10 +47,13 @@ Blood sodium(mEq/L);Blood calcium(mg/dL);Chloride(mEq/L);Anion gap(mEq/L);Magnes
 
 - Even though each variables have low correlation values with the diseases, but using all variables to train the machine learning models can return pretty good results
 - Different diseases can have different Machine Learning Models that performs better. (Logistic Regression for CHD and Random Forest for Renal Failure)
+- When comparing the RandomForest model before and after upsampling, we noticed that the True Positive and True Negative Rate only improved marginally for the imbalance data we resampled (CHD), but for the data that the already relatively balanced (Renal Failure), the True Positive and True Negative Rate remains relatively unchanged.
 - Even if data is imbalance, resampling will not help in improving the machine learning model much if the variables already have very little correlation
+
 ## Lessons learnt
 
 - MissForest is a good method for filling in NA values to ensure consistency in the dataset
+- Resampling improved the True Positive and True Negative rate by a little only 
 - Upsampling may not always be effective
 - Resampling does not always improve imbalanced data
 - Learning how to use Github repositories
@@ -60,5 +63,7 @@ Blood sodium(mEq/L);Blood calcium(mg/dL);Chloride(mEq/L);Anion gap(mEq/L);Magnes
 - https://www.kaggle.com/code/yashgupta24/hospital-moratality-analysis/notebook
 - https://rpubs.com/lmorgan95/MissForest#:~:text=MissForest%20is%20a%20random%20forest,then%20predicts%20the%20missing%20part.
 - https://www.datacamp.com/community/tutorials/understanding-logistic-regression-python
+- https://towardsdatascience.com/heres-what-i-ve-learnt-about-sklearn-resample-ab735ae1abc4
+- 
    
  
