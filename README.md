@@ -9,7 +9,10 @@ The dataset we have chosen was taken from Kaggle, titled [Hospital Mortality Ana
 
 For a more detailed walkthrough of our project, please view our source codes in the following order:
 
-1.
+1. Data Splitting and Data Imputation
+2. Data Visualisation
+3. RandomForest Model
+4. Resampling and Other Models
 
 ## Contributors
 
@@ -17,6 +20,8 @@ For a more detailed walkthrough of our project, please view our source codes in 
 - Lim Wei Jun, Wilson (@GodofGaren1) : Cleaning up of Data Set, MissForest, RandomForest
 - Lau Ling Hin (@LingHin) : GridSearch, Observations, Upsampling
 - Ng I-Shen Samuel (@samuel1234ng) : Results of re-test, Logistic Regression, Lessons Learnt
+
+(Contributions include respective slides, script and code where applicable)
 
 ## Problem Definition
 
