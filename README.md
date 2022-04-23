@@ -59,7 +59,7 @@ Blood sodium(mEq/L);Blood calcium(mg/dL);Chloride(mEq/L);Anion gap(mEq/L);Magnes
 - MissForest is a good method for filling in NA values to ensure consistency in the dataset
 - Logistic Regression from sklearn
 - RandomForest from sklearn
-- Resampling improve imbalanced data to obatain better results for machine learning models, but may not always be effective
+- Resampling improve imbalanced data to obtain better results for machine learning models, but may not always be effective
 - Learn how to obtain feature importance from RandomForest and LinearRegression.
 - Learning how to use Github repositories
 
