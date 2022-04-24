@@ -52,6 +52,8 @@ Blood sodium(mEq/L);Blood calcium(mg/dL);Chloride(mEq/L);Anion gap(mEq/L);Magnes
 - Different diseases can have different Machine Learning Models that performs better. (Logistic Regression for CHD and Random Forest for Renal Failure)
 - RandomForest with GridSearch helps are able to predict the chances of someone having Renal failure with 78% accuracy.
 - The 5 most important factors in predicting Renal failure are creatine, heart rate, PT(prothrombin time), Bicarbornate and Platelets.
+- Using logistic regression and after resampling, we are able to predict CHD with no MI with 61% accuracy with more than 60% accuracy for both True Positive Rate and True Negative Rate.
+- The 5 most important factors in predicting CHD are Ef(Ejection fraction), Systolic Blood Pressure, age, PC02 and NeutroPhils.
 - Other diseases do have correlations with the medical factors, but their prediction accuracy using machine learning model are not as high as that of Renal failure.
 
 ## Lessons learnt
